@@ -1,6 +1,6 @@
 export const margin = { top: 20, right: 20, bottom: 30, left: 40 };
-export const width = 960 - margin.left - margin.right;
-export const height = 430 - margin.top - margin.bottom;
+export const width = 700 - margin.left - margin.right;
+export const height = 300 - margin.top - margin.bottom;
 export const hours = ["12 AM", "01 AM", "02 AM", "03 AM", "04 AM",
     "05 AM",
     "06 AM",

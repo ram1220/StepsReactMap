@@ -6,7 +6,8 @@ import {
     width,
     height,
     hours,
-    margin
+    margin,
+    causes
 } from '../../common';
 
 export default class RunWalk extends Component {
@@ -75,11 +76,11 @@ export default class RunWalk extends Component {
 
         let walkColorScale = d3.scaleLinear()
             .domain([d3.min(totalSteps), d3.max(totalSteps)])
-            .range(["#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+            .range(["#0087ff", "#0055ff", "#0000ff"]);
 
         let runColorScale = d3.scaleLinear()
             .domain([d3.min(totalSteps), d3.max(totalSteps)])
-            .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b"]);
+            .range(["#ffd000", "#ffe500", "#faff00"]);
 
         let xscale = d3.scaleLinear()
             .domain([0, 23])
